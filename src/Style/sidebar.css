@@ -1,0 +1,40 @@
+.sidebar_button{
+border: 1px solid #198ADB;
+box-sizing: border-box;
+filter: drop-shadow(0px 2px 8px rgba(118, 198, 255, 0.8));
+border-radius: 12px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 15px 0px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 30px;
+display: flex;
+justify-content: start;
+align-items: center;
+color: #198ADB;
+width: 170px;
+height: 40px;
+padding-left:20px;
+background-color: #fff;
+cursor: pointer;
+
+}
+
+.sidebar_button:focus{
+    outline: none;
+}
+
+.active_btn{
+    background: linear-gradient(92.05deg, #198ADB 0.43%, #1AB2D7 46.67%, #1BE0D3 100%);
+box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+color: #FFFFFF;
+}
+.sidebars{
+margin-top: 94px;
+    position: fixed;
+}

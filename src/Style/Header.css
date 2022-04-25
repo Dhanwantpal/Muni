@@ -1,0 +1,116 @@
+.Header_bar{
+    background-color: #fff;
+    height: 94px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    position: fixed;
+    border-bottom: 0.75px solid #C4C4C4;
+}
+.Brand_logo{
+font-family: 'Anton';
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 30px;
+color: #000000;
+transition: all 0.3s;
+}
+.Search_watch{
+    drop-shadow:(0px 2px 4px rgba(118, 198, 255, 0.5));
+}
+
+.Search_watch input {
+background: #FFFFFF;
+border: 2px solid #198ADB;
+box-sizing: border-box;
+border-radius: 12px;
+padding: 5px 10px;
+width: 380px;
+transition: all 0.3s;
+}
+
+.Search_watch input:focus{
+    outline: none;
+}
+.NavLinks{
+    transition: all 0.3s;
+}
+.NavLinks ul li a{
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 30px;
+color: #0D0D0D;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+
+}
+.button_color{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+background: linear-gradient(102.43deg, rgba(25, 138, 219, 0.77) 0%, #3BC0B7 72.54%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+
+.logo_icon {
+    width: 75px;
+    height: 75px;
+    background-color: #fff;
+    border-radius:50%;
+    display: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btns{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.btns:focus{
+    outline: none;
+}
+@media screen and (max-width:1198px) {
+    .Search_watch input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .NavLinks{
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .NavLinks{
+        display: none;
+    }
+    .logo_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .Search_watch{
+        display: none;
+    }
+    .Brand_logo{
+        display: none;
+    }
+}

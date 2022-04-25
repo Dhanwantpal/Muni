@@ -1,0 +1,71 @@
+.footer{
+    background: linear-gradient(94.86deg, #198ADB 0%, rgba(59, 192, 183, 0.91) 100%);
+    width: 100%;
+    height: auto;
+}
+.footer_heading h1{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 60px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+.footer .footer_links li a{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.footer .social_icons p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    
+}
+.footer .rights p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 45px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+.footer .social_icons li{
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 12px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.footer .social_icons li img{
+    width:100%;
+}
